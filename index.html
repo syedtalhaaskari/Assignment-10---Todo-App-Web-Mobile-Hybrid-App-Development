@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10 - Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Todo App</h1>
+        </div>
+        <div class="inputArea">
+            <input type="text" placeholder="Enter Todo Item" maxlength="25" id="todoItem">
+            <button onclick="verify()">Add</button>
+            <button onclick="deleteAll()">Delete All</button>
+        </div>
+        <div class="listArea">
+            <ol id="list">
+    
+            </ol>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

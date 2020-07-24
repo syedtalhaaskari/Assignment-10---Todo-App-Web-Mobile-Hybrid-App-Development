@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: pink;
+    background-image: url("./images/background.jpg");
+}
+    
+.container {
+    border-radius: 10px;
+    height: 75%;
+    margin: 10px auto;
+    width: 40%;
+    padding: 10px 20px;
+    background-color: white;
+}
+    
+h1 {
+    color: rgb(0, 153, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.listArea {
+    margin: auto;
+    width: 75%;
+}
+    
+.listArea button {
+    margin: 5px 2px;
+}
+    
+.input {
+    margin-right: 2px;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: cadetblue;
+}
+    
+.input:focus {
+    outline: 0px;
+}
+    
+li {
+    margin: 10px auto;
+}
+    
+input, button {
+    padding: 5px 10px;
+}
+    
+.inputArea {
+    margin: 30px auto;
+}
